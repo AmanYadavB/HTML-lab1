@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        span {
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <a href="HTML page 1.html">Home</a>
+    <a href="HTML lab1 portfolio.html">PortFolio</a>
+    <a href="HTML lab1 Contact Us.html">Contact Us</a>
+    <h1>Example Consulting Pvt. Ltd.</h1>
+    <hr />
+    <h2><a name="Contact Us">Contact Us</a></h2>
+    
+    <ul>
+        <li>
+            Mobile no. -  
+            <a href="">+91 8840411359</a>
+        </li>
+        <li>
+            Email - 
+            <a href="">amankumaryadavasasmd@gmail.com</a>
+        </li>
+    </ul>
+    <h3>Drop a message</h3>
+    <p>Please drop us a message by filling out this form, and we wil get back to you within 2 working days.</p>
+    <p>Fields marked with <span>*</span> are required</p>
+    <form action="HTML lab1 success.html">
+    <div class="form-group">
+        <div >
+            <label for="name">Your Name<span>*</span></label>
+        </div>
+        <div>
+            <input type="text" id ="name" placeholder="John Doe">
+        </div>
+    </div>
+    <div class="form-group">
+        <div>
+            <label for="email">Your Email<span>*</span></label>
+        </div>
+        <div>
+            <input type="email" id ="email" placeholder="John.doe@example.com">
+        </div>
+    </div>
+    <div class="form-group">
+        <div>
+            <label for="choice">What are you looking to build?<span>*</span></label>
+        </div>
+        <div>
+            <select name="choice" id="choice">
+                <option value="--Choose one--">--Choose one--</option>
+                <option value="Blog">Blog</option>
+                <option value="OS">Online store</option>
+                <option value="game">Game</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+    </div>
+    <label>
+        <input type="checkbox" value="Web" name="Web"/> Web
+    </label>
+    <label>
+        <input type="checkbox" value="Mobile" name="Mobile"/> Mobile
+    </label>
+    <label>
+        <input type="checkbox" value="Desktop" name="Desktop"/> Desktop
+    </label>
+
+    <div>
+        <div>
+            <label for="msg">Message</label>
+        </div>
+        <div>
+            <textarea name="msg" id="msg" cols="30" rows="3"></textarea>
+        </div>
+    </div>
+    <input type="reset" value="Reset" />
+    <input type="submit" value="Login"/>
+    </form>
+
+    <hr />
+    @example.com
+</body>
+</html>
